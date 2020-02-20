@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D6D6AF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+
+
+            <ImageView
+                android:id="@+id/emp_image"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emp_name"
+                android:hint="NAME"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"
+                android:drawableLeft="@drawable/username"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emp_email"
+                android:hint="EMAIL"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/mail"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/biography"
+                android:hint="biography"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/mail"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emp_ph"
+                android:hint="PHONE"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emp_team"
+                android:hint="Team"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"
+                android:drawableLeft="@drawable/username"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emp_type"
+                android:hint="type"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"
+                android:drawableLeft="@drawable/username"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
